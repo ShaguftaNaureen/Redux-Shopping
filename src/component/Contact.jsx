@@ -1,4 +1,5 @@
 import React from "react";
+import IMG3 from "../assets/contactus.png"
 
 const Contact = () => {
   return (
@@ -13,7 +14,7 @@ const Contact = () => {
         <div className="row">
           <div className="col-md 5 d-flex justify-content-center">
             <img
-              src="./assets/contactus.png"
+              src={IMG3}
               alt="Contact Us"
               height="500px"
               width="500px"

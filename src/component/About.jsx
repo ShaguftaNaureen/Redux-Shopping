@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import IMG1 from "../assets/aboutus.jpg"
 const About = () => {
   return (
     <div>
@@ -29,7 +29,7 @@ const About = () => {
           </div>
           <div className="col-md-6 ">
             <img
-              src="/assets/aboutus.jpg"
+              src={IMG1}
               alt="About Us"
               height="550px"
               width="550px"
